@@ -37,7 +37,7 @@ def transform(orgin_p,answer):
     else:
         tmp_answer = ""
         tmp_p = "(" + transform(v,tmp_answer) + ")" + reverse_p(u[1:len(u)-1])
-        return transform(tmp_p,answer)
+        return answer+tmp_p
 
 def solution(p):
     s = ''
