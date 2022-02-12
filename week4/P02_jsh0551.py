@@ -1,5 +1,5 @@
 def get_uv(orgin_p):
-    p,u,v = orgin_p,"",orgin_p
+    u,v = "",orgin_p
     n = len(v)
     for i in range(n):
         u += v[0]
